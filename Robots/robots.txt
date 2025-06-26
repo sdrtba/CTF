@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /super_secret_page_that_may_contain_flag

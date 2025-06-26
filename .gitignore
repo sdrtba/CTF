@@ -1,0 +1,5 @@
+**/venv
+**/.vs
+**/x64
+**/Build
+**/dnSpy

@@ -1,0 +1,130 @@
+/* Общие сбросы */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Центрирование контента */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Карточка формы */
+.container.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Заголовок */
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Поля формы */
+form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Кнопка */
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled,
+button[aria-busy="true"] {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+/* Сообщение об ошибке */
+#error {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: red;
+  text-align: center;
+}
+
+/* Ссылка внизу */
+p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Центровка карточки */
+.center {
+  text-align: center;
+}
+
+/* Заголовок и подзаголовок */
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* Группа кнопок */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Большие кнопки */
+.button.large {
+  padding: 1rem;
+  font-size: 1rem;
+}

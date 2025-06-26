@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head><link rel="stylesheet" href="style.css"></head>
+<body>
+  <main class="container card">
+      <article>
+        <h1>Register</h1>
+
+        <form id="form">
+          <p id="error" style="color: red; display: none;"></p>
+
+          <label>
+            <input
+              id="username"
+              type="text"
+              name="username"
+              placeholder="Username"
+              autoComplete="username"
+              maxLength=255
+              required
+            />
+          </label>
+
+          <label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Password"
+              autoComplete="current-password"
+              maxLength=255
+              required
+            />
+          </label>
+
+          <button type="submit" class="contrast" onclick="register()">
+            Register
+          </button>
+        </form>
+
+        <p style="margin-top: 1rem">
+          Already registered? <a href="/login">Login</a>
+        </p>
+      </article>
+  </main>
+
+  <script src="script.js"></script>
+  <script>check()</script>
+</body></html>
