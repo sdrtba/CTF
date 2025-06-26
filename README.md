@@ -10,6 +10,6 @@
 ├── CryptoLoger/       # Crypto
 ├── Leaks/             # Web
 ├── ToEternity/        # PPC
-├── Robots/            # Wev
+├── Robots/            # Web
 └── Thief/             # Reverse
 ```
