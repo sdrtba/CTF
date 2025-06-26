@@ -8,11 +8,3 @@ PPC
 
 ## 🌐 Attachment
 Archive.rar
-
----
-## ❗Note
-Как получить ssl_keys
-```bash
-$env:SSLKEYLOGFILE="C:\Users\user\Desktop\ssl_keys.txt"
-Start-Process "C:\Users\user\AppData\Local\Yandex\YandexBrowser\Application\browser.exe"
-```
