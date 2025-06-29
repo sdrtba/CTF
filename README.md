@@ -11,6 +11,7 @@
 ├── CryptoLoger/       # Crypto
 ├── Leaks/             # Web
 ├── Library/           # PPC
+├── LuckTester/        # Reverse
 ├── NifNif/            # Forensics
 ├── Robots/            # Web
 ├── Thief/             # Reverse
