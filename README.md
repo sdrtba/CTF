@@ -8,6 +8,7 @@
 ```text
 .
 ├── Again/             # Stegano
+├── Bytes/             # Stegano
 ├── CryptoLoger/       # Crypto
 ├── Leaks/             # Web
 ├── Library/           # PPC
